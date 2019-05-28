@@ -1,0 +1,9 @@
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\bin\Debug\netcoreapp2.2\DBHelper.deps.json
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\bin\Debug\netcoreapp2.2\DBHelper.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\bin\Debug\netcoreapp2.2\DBHelper.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\obj\Debug\netcoreapp2.2\DBHelper.csprojAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\obj\Debug\netcoreapp2.2\DBHelper.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\obj\Debug\netcoreapp2.2\DBHelper.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\obj\Debug\netcoreapp2.2\DBHelper.AssemblyInfo.cs
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\obj\Debug\netcoreapp2.2\DBHelper.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\obj\Debug\netcoreapp2.2\DBHelper.pdb

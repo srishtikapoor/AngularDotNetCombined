@@ -1,0 +1,8 @@
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\bin\Debug\netcoreapp2.2\DataHelper.deps.json
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\bin\Debug\netcoreapp2.2\DataHelper.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\bin\Debug\netcoreapp2.2\DataHelper.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\obj\Debug\netcoreapp2.2\DataHelper.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\obj\Debug\netcoreapp2.2\DataHelper.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\obj\Debug\netcoreapp2.2\DataHelper.AssemblyInfo.cs
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\obj\Debug\netcoreapp2.2\DataHelper.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\DBHelper\obj\Debug\netcoreapp2.2\DataHelper.pdb
