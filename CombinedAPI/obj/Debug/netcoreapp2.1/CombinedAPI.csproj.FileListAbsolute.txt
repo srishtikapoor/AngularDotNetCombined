@@ -1,0 +1,13 @@
+C:\Users\user\Documents\Visual Studio 2017\Projects\CombinedAPI\bin\Debug\netcoreapp2.1\CombinedAPI.deps.json
+C:\Users\user\Documents\Visual Studio 2017\Projects\CombinedAPI\bin\Debug\netcoreapp2.1\CombinedAPI.runtimeconfig.json
+C:\Users\user\Documents\Visual Studio 2017\Projects\CombinedAPI\bin\Debug\netcoreapp2.1\CombinedAPI.runtimeconfig.dev.json
+C:\Users\user\Documents\Visual Studio 2017\Projects\CombinedAPI\bin\Debug\netcoreapp2.1\CombinedAPI.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\CombinedAPI\bin\Debug\netcoreapp2.1\CombinedAPI.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\CombinedAPI\obj\Debug\netcoreapp2.1\CombinedAPI.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\CombinedAPI\obj\Debug\netcoreapp2.1\CombinedAPI.RazorAssemblyInfo.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\CombinedAPI\obj\Debug\netcoreapp2.1\CombinedAPI.RazorAssemblyInfo.cs
+C:\Users\user\Documents\Visual Studio 2017\Projects\CombinedAPI\obj\Debug\netcoreapp2.1\CombinedAPI.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\CombinedAPI\obj\Debug\netcoreapp2.1\CombinedAPI.AssemblyInfo.cs
+C:\Users\user\Documents\Visual Studio 2017\Projects\CombinedAPI\obj\Debug\netcoreapp2.1\CombinedAPI.RazorTargetAssemblyInfo.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\CombinedAPI\obj\Debug\netcoreapp2.1\CombinedAPI.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\CombinedAPI\obj\Debug\netcoreapp2.1\CombinedAPI.pdb
