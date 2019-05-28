@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<h2 style="align-content:center">Add an Item</h2>
+<form (ngSubmit)="SaveItem()" #formData="ngForm">
+
+  <label>Category</label>
+  <select [(ngModel)]="categoryDataModel.CategoryID" name="CategoryID">
+    <option *ngFor="let category of categories" value="{{category.categoryID}}" >
+      {{category.categoryName}}
+    </option>
+  </select>
+
+  <div class="form-group">
+    <label>Item</label>
+    <input [(ngModel)]="categoryDataModel.ItemName" type="text" class="form-control" name="ItemName" #ItemName="ngModel" required>
+    <div [hidden]="ItemName.valid||ItemName.pristine" class="alert alert-danger">
+       Item required
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-success" [disabled]="!formData.form.valid">Save</button>
+</form>

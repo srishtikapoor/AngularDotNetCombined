@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<h2 style="text-align:center">Item Order</h2>
+<form #orderForm="ngForm" (ngSubmit)="SaveItemOrder()">
+  <div>
+    <label>Customer</label>
+    <select [(ngModel)]="itemOrderDataModel.CustomerID" name="CustomerID" #CustomerID="ngModel" required>
+      <option *ngFor="let customer of customers" value="{{customer.customerID}}">
+        {{customer.customerName}}
+      </option>
+    </select>
+    <div [hidden]="CustomerID.valid || CustomerID.pristine"
+         class="alert alert-danger">
+      This is required">
+    </div>
+  </div>
+
+  <div>
+    <label>Item</label>
+    <select [(ngModel)]="itemOrderDataModel.ItemID" name="ItemID" required #ItemID="ngModel" (ngModelChange)="getPrice(itemOrderDataModel.ItemID)">
+      <option *ngFor="let item of items" value="{{item.itemID}}">
+        {{item.itemName}}
+      </option>
+    </select>
+    <div [hidden]="ItemID.valid || ItemID.pristine"
+         class="alert alert-danger">
+      Item Name is required">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label>Quantity</label>
+    <input [(ngModel)]="itemOrderDataModel.ItemOrderQuantity" type="text" class="form-control" name="ItemOrderQuantity" maxlength="5" pattern="[0-9]*"
+           id="ItemQuantity" #ItemOrderQuantity="ngModel" required
+           (ngModelChange)="getPrice(itemOrderDataModel.ItemID)">
+    <div [hidden]="ItemOrderQuantity.valid || ItemOrderQuantity.pristine"
+         class="alert alert-danger">
+      Quantity is required
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label>Amount</label>
+    <input disabled [(ngModel)]="itemOrderDataModel.TotalAmount" name="TotalAmount" type="number" >
+  </div>
+
+
+  <button type="submit" class="btn btn-success" [disabled]="!orderForm.valid">Save</button>
+</form>
